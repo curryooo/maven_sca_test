@@ -5,6 +5,7 @@ go 1.16
 replace gitlab.alipay-inc.com/antchain/mychain-sdk-go v0.2.2 => /Users/bright/blockchain/mychain/mychain-sdk-go/src/gitlab.alipay-inc.com/antchain/mychain-sdk-go
 
 require (
+        github.com/gentoo/soko v1.0.0
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/alibabacloud-go/darabonba-openapi v0.1.5
 	github.com/alibabacloud-go/onsmqtt-20200420 v1.0.1
