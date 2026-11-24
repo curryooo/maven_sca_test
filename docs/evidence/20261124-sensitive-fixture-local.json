@@ -1,0 +1,19 @@
+{
+  "repository": "curryooo/maven_sca_test",
+  "branch": "codex/sensitive-fixture-20261124",
+  "baseSha": "bd067ebdadbdc8f67273773e6e358fc39423754d",
+  "date": "2026-11-24",
+  "syntheticOnly": true,
+  "cases": 6,
+  "baselineTrackedFilesUnchanged": 13,
+  "checks": {
+    "standaloneJava8StrictCompile": "PASS",
+    "rsa2048PemParsing": "PASS",
+    "caseManifestPathsAndLines": "PASS",
+    "credentialLikeFormats": "PASS",
+    "applicationDoesNotReferenceFixtures": "PASS",
+    "existingSourceAndDependenciesUnchanged": "PASS"
+  },
+  "serviceScan": "NOT_YET_RUN",
+  "scope": "Local checks prove fixture structure only, not STC detection or Cloud result delivery."
+}

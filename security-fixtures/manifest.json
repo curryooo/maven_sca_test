@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "syntheticOnly": true,
+  "branch": "codex/sensitive-fixture-20261124",
+  "provenance": "Generated offline solely for this repository; never provider-issued or associated with a live account.",
+  "acceptance": "At least one actual finding must match a listed fixture path; local matches are not service acceptance.",
+  "cases": [
+    {
+      "id": "SI-DB-001",
+      "category": "hardcoded database credentials",
+      "file": "src/main/resources/security-fixtures/database.properties",
+      "startLine": 4,
+      "endLine": 5
+    },
+    {
+      "id": "SI-AK-001",
+      "category": "hardcoded access key",
+      "file": "src/main/java/net/tiaotiaolong/maven_test/securityfixture/SensitiveInformationFixture.java",
+      "startLine": 6,
+      "endLine": 7
+    },
+    {
+      "id": "SI-TOKEN-001",
+      "category": "hardcoded LLM token",
+      "file": "src/main/java/net/tiaotiaolong/maven_test/securityfixture/SensitiveInformationFixture.java",
+      "startLine": 10,
+      "endLine": 10
+    },
+    {
+      "id": "SI-TOKEN-002",
+      "category": "hardcoded GitLab token",
+      "file": "src/main/resources/security-fixtures/service-tokens.properties",
+      "startLine": 3,
+      "endLine": 3
+    },
+    {
+      "id": "SI-TOKEN-003",
+      "category": "hardcoded Dingtalk token",
+      "file": "src/main/resources/security-fixtures/service-tokens.properties",
+      "startLine": 6,
+      "endLine": 6
+    },
+    {
+      "id": "SI-KEY-001",
+      "category": "hardcoded private key",
+      "file": "src/main/resources/security-fixtures/synthetic-private-key.pem",
+      "startLine": 1,
+      "endLine": 27
+    }
+  ]
+}
